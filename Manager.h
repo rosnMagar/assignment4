@@ -6,8 +6,7 @@ class Manager: public Employee {
     private:
         double bonus;
     public:
-        Manager(string theName, double theWage, double theHours) : Employee(theName, theWage, theHours){}
-        void setBonus(double b);
+        Manager(string theName, double theWage, double theHours, double _bonus) : Employee(theName, theWage, theHours), bonus(_bonus){}
         double calcPay() const;
 };
 

@@ -52,7 +52,7 @@ int main(){
 
         totalWage += hoursWorked * hourlyWage + bonus;
 
-        Manager* manager = new Manager(name, hourlyWage, hoursWorked);
+        Manager* manager = new Manager(name, hourlyWage, hoursWorked, bonus);
         allManagers[i] = manager; 
     }
 
