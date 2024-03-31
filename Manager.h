@@ -2,6 +2,7 @@
 #define MANAGER_H
 #include "Employee.h"
 
+// manager class inherits from Employee
 class Manager: public Employee {
     private:
         double bonus;

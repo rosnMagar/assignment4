@@ -43,8 +43,9 @@ int main(){
 
         cout << "Enter manager " << i << " bonus: ";
         cin >> bonus;
-        cout << endl;
-
+        cout << endl;   
+        
+        // this part checks if the current manager is paid more than the highest paid 
         if((hoursWorked * hourlyWage + bonus) > highestAmount){
             highestPaidManager = i;
             highestAmount = hoursWorked * hourlyWage + bonus;
